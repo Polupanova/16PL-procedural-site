@@ -12,6 +12,7 @@ $nav_links=array(
 	'link3'=>'#'
 );
 
+$article = 'article';
 /*$fn = function($arr) use ($array1) {
     return !in_array($arr['title'], $array1);
 };
