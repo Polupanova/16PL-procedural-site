@@ -7,3 +7,4 @@ $nav_links=array(
 
 $header = 'header';
 $article = 'article';
+$art = get('articles', $db);
