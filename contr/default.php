@@ -5,4 +5,5 @@ $nav_links=array(
 	'link3'=>'#'
 );
 
+$header = 'header';
 $article = 'article';
