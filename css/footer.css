@@ -1,0 +1,34 @@
+footer {
+    width: 960px;
+    height: 180px;
+    background: #009900;
+    background: linear-gradient(top, #003D00, #4DB84D);
+    background: -webkit-linear-gradient(top, #003D00, #4DB84D);
+    background: -moz-linear-gradient(top, #003D00, #4DB84D);
+    background: -ms-linear-gradient(top, #003D00, #4DB84D);
+    background: -o-linear-gradient(top, #003D00, #4DB84D);
+}
+
+div.frm {
+    width: 200px;
+    height: 180px;
+    background: #19A347;
+    background: linear-gradient(top, #127232, #8CD1A3);
+    background: -webkit-linear-gradient(top, #127232, #8CD1A3);
+    background: -moz-linear-gradient(top, #127232, #8CD1A3);
+    background: -ms-linear-gradient(top, #127232, #8CD1A3);
+    background: -o-linear-gradient(top, #127232, #8CD1A3);
+    float: right;
+}
+div.nav {
+    width: 200px;
+    height: 180px;
+    float: left;
+    background: #19A347;
+    background: linear-gradient(top, #127232, #8CD1A3);
+    background: -webkit-linear-gradient(top, #127232, #8CD1A3);
+    background: -moz-linear-gradient(top, #127232, #8CD1A3);
+    background: -ms-linear-gradient(top, #127232, #8CD1A3);
+    background: -o-linear-gradient(top, #127232, #8CD1A3);
+}
+
