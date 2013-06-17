@@ -1,4 +1,6 @@
 header {
+	position: relative;
+
 	max-width: 960px;
 	height: 45px;
 	margin: 0 auto;
@@ -16,9 +18,11 @@ header {
 }
 
 .menu-btn {
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	margin: 0;
 	color: #eeeeee;
-	margin-top: 22px;
-	margin-left: 15px;
 	background: #2981e4;
 	border: none;
 	padding: 5px 10px 2px 10px;
