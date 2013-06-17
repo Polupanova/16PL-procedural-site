@@ -35,6 +35,17 @@ header {
 	cursor: pointer;
 }
 
+.logo {
+	display: inline-block;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	height: 30px;
+	width: 90px;
+	background: url(../img/logo.png) no-repeat;
+	background-size: contain;
+}
+
 .lang {
 	float: right;
 	margin: 15px 20px 0;
