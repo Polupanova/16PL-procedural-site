@@ -6,7 +6,18 @@ article h1 {
     letter-spacing: -1px;
     margin: 0 0 12px 0;
     color: #000;
+
+    display: inline-block;
 }
 article {
-    width: 544px;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+article time {
+    font: 14px Georgia, "Times New Roman", serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    float: right;
 }
