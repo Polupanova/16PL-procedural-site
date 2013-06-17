@@ -20,7 +20,7 @@ header {
 .menu-btn {
 	position: absolute;
 	bottom: 0;
-	left: 5px;
+	left: 15px;
 	margin: 0;
 	color: #eeeeee;
 	background: #2981e4;
@@ -37,7 +37,7 @@ header {
 
 .lang {
 	float: right;
-	margin: -13px 15px 0 0;
+	margin: 15px 20px 0;
 }
 
 .lang a {
