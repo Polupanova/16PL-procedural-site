@@ -28,7 +28,8 @@ function connect() {
     $dblink = mysql_connect(DB_SERV, DB_USER, DB_PASS) or exit(mysql_error());
 
     mysql_select_db(DB_DATB, $dblink) or exit(mysql_error());
-
+     
+	mysql_query("set names 'UTF8'"); 
     return $dblink;
 }
 
