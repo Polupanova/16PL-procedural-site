@@ -7,4 +7,5 @@ $nav_links=array(
 
 $header = 'header';
 $article = 'article';
+$footer = 'footer';
 $art = get('articles', $db);
