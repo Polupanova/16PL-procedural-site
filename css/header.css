@@ -53,15 +53,20 @@ header {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	cursor: pointer;
+	text-shadow: 0 1px 0 #215EA3;
+}
+
+.menu-btn:hover {
+	text-shadow: 0 -1px 0 #215EA3;
 }
 
 .logo {
 	display: inline-block;
 	position: absolute;
-	top: 15%;
+	top: 18%;
 	left: 50%;
 	height: 30px;
-	width: 90px;
+	width: 55px;
 	background: url(../img/logo.png) no-repeat;
 	background-size: contain;
 }
