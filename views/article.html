@@ -1,9 +1,9 @@
-   <?php foreach ($art as $a): ?>
-		<article>
-			<span class="hspn"></span><h1><?php echo $a -> heading ?> </h1>
-				<time datetime= "<?php echo date("c", $a -> time); ?>" ><?php echo date("r", $a -> time);  ?> </time>
-			<p><?php echo $a -> article ?>
-				<span>Posted by  | <?php echo $a -> name ?></span>
-			</p>
-		</article>
-    <?php endforeach ?>
+<?php foreach ($art as $a): ?>
+	<article>
+		<span class="hspn"></span><h1><?php echo $a -> heading ?> </h1>
+			<time datetime= "<?php echo date("c", $a -> time); ?>" ><?php echo date("r", $a -> time);  ?> </time>
+		<p><?php echo $a -> article ?>
+			<span>Posted by  | <?php echo $a -> name ?></span>
+		</p>
+	</article>
+<?php endforeach ?>
