@@ -1,9 +1,6 @@
 header {
 	position: relative;
-
-	max-width: 960px;
 	height: 45px;
-	margin: 0 auto;
 	margin-top: 20px;
 	background: #eeeeee; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */

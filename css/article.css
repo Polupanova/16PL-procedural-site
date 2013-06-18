@@ -10,8 +10,6 @@ article h1 {
     display: inline-block;
 }
 article {
-    max-width: 960px;
-    margin: 0 auto;
     padding-top: 20px;
 	background: #fff;
 }

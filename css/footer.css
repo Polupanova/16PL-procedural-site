@@ -1,6 +1,5 @@
 footer {
-    min-width: 960px;
-	margin: 0 auto;
+	padding: 0;
     height: 180px;
     background: #009900;
     background: linear-gradient(top, #003D00, #4DB84D);
@@ -8,6 +7,8 @@ footer {
     background: -moz-linear-gradient(top, #003D00, #4DB84D);
     background: -ms-linear-gradient(top, #003D00, #4DB84D);
     background: -o-linear-gradient(top, #003D00, #4DB84D);
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
 }
 
 div.frm {
@@ -20,6 +21,8 @@ div.frm {
     background: -ms-linear-gradient(top, #127232, #8CD1A3);
     background: -o-linear-gradient(top, #127232, #8CD1A3);
     float: right;
+	-webkit-border-radius: 0px 0px 5px 0px;
+	border-radius: 0px 0px 5px 0px;
 }
 div.nav {
     width: 200px;
@@ -31,5 +34,7 @@ div.nav {
     background: -moz-linear-gradient(top, #127232, #8CD1A3);
     background: -ms-linear-gradient(top, #127232, #8CD1A3);
     background: -o-linear-gradient(top, #127232, #8CD1A3);
+	-webkit-border-radius: 0px 0px 0px 5px;
+	border-radius: 0px 0px 0px 5px;
 }
 
