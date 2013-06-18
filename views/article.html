@@ -5,6 +5,6 @@
         <time datetime= "<?php echo date("c", $a -> time); ?>" ><?php echo date("r", $a -> time);  ?> </time>
      <p><?php echo $a -> article ?></p>
 
-        <p>Posted by  | </p>
+        <p>Posted by  | <?php echo $a -> name ?></p>
     <?php endforeach ?>
 </article>
