@@ -1,5 +1,7 @@
 footer {
 	padding: 0;
+    max-width: 960px;
+    margin: auto;
     height: 180px;
     background: #009900;
     background: linear-gradient(top, #003D00, #4DB84D);
