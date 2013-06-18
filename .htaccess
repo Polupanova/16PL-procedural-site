@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteRule ^article/([a-zA-Z0-9]+)/$ index.php?section=$1
+RewriteRule ^([a-zA-Z0-9]+)/?$ index.php?section=$1
 php_value error_reporting 7
 php_flag display_errors On
