@@ -39,12 +39,22 @@ article:after {
 article h1 {
 	position: relative;
 	top: 10px;
-	left: 10px;
+	left: 5px;
     font: bold 16px Georgia, "Times New Roman", serif;
     letter-spacing: -1px;
     margin: 0 0 12px 0;
+	padding: 0;
     color: #000;
     display: inline-block;
+}
+
+.hspn {
+	height: 16px;
+	width: 9px;
+	margin: 11px 0 0;
+	display: inline-block;
+	float: left;
+	background: #2981e4;
 }
 
 article time {
