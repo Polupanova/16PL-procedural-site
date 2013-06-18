@@ -55,7 +55,7 @@ header {
 	left: 50%;
 	height: 30px;
 	width: 55px;
-	background: url(../img/logo.png) no-repeat;
+	background: url(img/logo.png) no-repeat;
 	background-size: contain;
 }
 
@@ -88,15 +88,15 @@ header {
 }
 
 .lv {
-	background: url(../img/lv.gif);
+	background: url(img/lv.gif);
 }
 
 .en {
-	background: url(../img/en.jpg);
+	background: url(img/en.jpg);
 }
 
 .ru {
-	background: url(../img/ru.gif);
+	background: url(img/ru.gif);
 }
 
 #menu {
