@@ -65,6 +65,7 @@ header {
 }
 
 .lang a {
+	margin-left: 5px;
 	display: inline-block;
 	width: 25px;
 	height: 15px;
