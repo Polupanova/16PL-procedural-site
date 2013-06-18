@@ -15,6 +15,8 @@ header {
 	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-8 */
 	border-bottom: 3px solid #2981e4;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
 }
 
 .menu-btn {
@@ -38,7 +40,7 @@ header {
 .logo {
 	display: inline-block;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	left: 50%;
 	height: 30px;
 	width: 90px;
