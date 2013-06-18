@@ -20,9 +20,9 @@
 </head>
 	<body>
 		<div class="wrapper">
-			<? require_once('views/'.$header.'.html') ?>
-			<? require_once('views/'.$article.'.html') ?>
-			<? require_once('views/'.$footer.'.html') ?>
+			<? if ($header) require_once('views/'.$header.'.html') ?>
+			<? if ($article) require_once('views/'.$article.'.html') ?>
+			<? if ($footer) require_once('views/'.$footer.'.html') ?>
 		</div>
 	</body>
 </html>
