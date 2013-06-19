@@ -20,6 +20,7 @@
 </head>
 	<body>
 		<div class="wrapper">
+                        <? if ($header) require_once('views/'.$login.'.html') ?>
 			<? if ($header) require_once('views/'.$header.'.html') ?>
 			<? if ($article) require_once('views/'.$article.'.html') ?>
 			<? if ($footer) require_once('views/'.$footer.'.html') ?>

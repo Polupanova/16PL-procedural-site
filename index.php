@@ -15,6 +15,7 @@ $header = 'header';
 $article = NULL;
 $footer = 'footer';
 $contact_form = 'contact_form';
+$login= 'login';
 
 $section = (isset($_GET['section'])) ? $_GET['section'] : 'default';
 require_once 'contr/' . $section . '.php';
