@@ -13,7 +13,6 @@ $db = connect();
 
 $header = 'header';
 $article = NULL;
-$contact_form = 'contact_form';
 $footer = 'footer';
 
 $section = (isset($_GET['section'])) ? $_GET['section'] : 'default';
