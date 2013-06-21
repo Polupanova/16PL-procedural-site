@@ -10,14 +10,13 @@ require 'func/db.php';
 
 $db = connect();
 
-
 $header = 'header';
 $article = NULL;
 $footer = 'footer';
-$contact_form = 'contact_form';
-$login = NULL;
 
 $section = (isset($_GET['section'])) ? $_GET['section'] : 'default';
+$url_prefix = (isset($_GET['section'])) ? '../' : NULL;
+
 require_once 'contr/' . $section . '.php';
 
 require_once 'views/main.html';

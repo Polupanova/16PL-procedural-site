@@ -1,7 +1,8 @@
 <?php
 
-$session = $_COOKIE[session_name()];
+$session = (isset($_COOKIE[session_name()])) ? $_COOKIE[session_name()] : NULL;
 
+$login = 'login';
 
 if ($session) {
     session_start();

@@ -8,6 +8,6 @@ $message = $_POST['message'];
 //echo nl2br ($message."\n") ;
 //echo "Thank You!";
 
-$contact_form = '../' . $contact_form;
+$contact_form = 'contact_form';
 
 $article = 'contact_form';
