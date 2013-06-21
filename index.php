@@ -13,6 +13,8 @@ $db = connect();
 $header = 'header';
 $article = NULL;
 $footer = 'footer';
+//$login = NULL;
+$upload = 'upload';
 
 $section = (isset($_GET['section'])) ? $_GET['section'] : 'default';
 $url_prefix = (isset($_GET['section'])) ? '../' : NULL;
