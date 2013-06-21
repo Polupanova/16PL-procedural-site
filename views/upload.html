@@ -1,0 +1,11 @@
+<article>
+    <form action="<?= $url_prefix ?>upload/" method="post" enctype="multipart/form-data">
+    <div>
+    <input type="file" name="my_file" id="my_file">
+        </div>
+    <div>
+    <input type="submit" value="upload">
+        </div>
+    </form>
+    <div class="error"><?php echo $returnok ?></div>
+</article>
