@@ -16,6 +16,7 @@ $article = NULL;
 $footer = 'footer';
 $contact_form = 'contact_form';
 $login = NULL;
+$upload = 'upload';
 
 $section = (isset($_GET['section'])) ? $_GET['section'] : 'default';
 require_once 'contr/' . $section . '.php';
